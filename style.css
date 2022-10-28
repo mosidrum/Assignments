@@ -1,0 +1,84 @@
+/* Registration form styling*/
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background: linear-gradient(#bedadf, #52cdd8);
+  font-size: 13px;
+}
+
+.card {
+  width: 500px;
+  border-radius: 20px;
+  background: white;
+  overflow: hidden;
+  text-align: center;
+  margin: auto;
+}
+.container {
+  padding: 50px;
+  background: linear-gradient(#02aab0, #00cdac);
+}
+
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="radio"] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+  border-radius: 10px;
+  font-size: 20px;
+}
+input[type="text"]:focus,
+input[type="password"]:focus {
+  background-color: #02aab0;
+  outline: none;
+}
+select {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+  border-radius: 10px;
+  font-size: 20px;
+}
+div {
+  padding: 10px 0;
+}
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+.registerbtn {
+  background-color: #094d49;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+  font-size: 20px;
+  letter-spacing: 2px;
+  border-radius: 10px;
+}
+.registerbtn:hover {
+  opacity: 1;
+  background-color: aqua;
+}
+h1 {
+  font-size: 2rem;
+  color: white;
+}
+label {
+  font-size: 20px;
+  color: white;
+}
+/*End of registration form styling*/
+
+/*Login form styling*/
+
